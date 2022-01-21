@@ -1,0 +1,18 @@
+.invalidEmail {
+    border: 1px solid #FCAEA0;
+    width: 85.10%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #6A6F73;
+    align-self: center;
+    justify-self: center;
+    margin-top: 12.5px;
+    padding: 13.5px;
+}

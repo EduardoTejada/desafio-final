@@ -1,0 +1,61 @@
+.tabscontainer {
+  display: flex;
+  height: 78px;
+  align-items: center;
+}
+
+.tabs {
+  font-size: 20px;
+  margin-left: 45px;
+  font-weight: bold;
+
+  position: relative;
+}
+
+.activeTabs::before {
+  animation-name: underbar;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+
+  content: "";
+  display: block;
+  width: 10%;
+  height: 6px;
+  background: #4c1691;
+  border-radius: 10px;
+
+  position: absolute;
+  bottom: -24px;
+}
+
+@keyframes underbar {
+  100% {
+    width: 100%;
+  }
+}
+
+.contentcontainer {
+  position: absolute;
+  left: 90px;
+  margin-right: 300px;
+}
+
+.contentcontainer h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.contentcontainer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.content {
+  display: none;
+}
+
+.activeContent {
+  display: block;
+}

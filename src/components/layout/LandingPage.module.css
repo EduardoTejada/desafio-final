@@ -1,0 +1,38 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 50% 0% 15%; 
+}
+.container h1{
+    margin-left: -4%;
+    margin-bottom: 10%;
+}
+
+.img{
+    width: 30%;
+    height: 70%;
+    margin-left: 55%;
+    margin-top: -24%;
+}
+
+.line{
+    border: 1px solid #D7B1F3;
+    margin-left: 13.19%;
+    margin-right:13.19%;
+    margin-top: -0.5%;
+}
+
+li {
+    color:#D7B1F3; /* cor dos marcadores*/
+  }
+  li span {
+    color: black; /* cor do texto*/
+  }

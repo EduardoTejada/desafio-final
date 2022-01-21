@@ -1,0 +1,33 @@
+.blackbox {
+  position: absolute;
+  width: 1080px;
+  height: 504px;
+  left: 0px;
+  top: 100px;
+
+  background: #1c1d1f;
+}
+
+.videobox {
+  position: absolute;
+  width: 734px;
+  height: 504px;
+  left: 174px;
+  top: 100px;
+}
+
+.tabsBox {
+  position: absolute;
+  width: 1080px;
+  height: 296px;
+  left: 0px;
+  top: 604px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 360px;
+  height: 800px;
+  left: 1080px;
+  top: 100px;
+}

@@ -1,0 +1,35 @@
+.cardHeader {
+    width: 100%;
+    height: 89.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 31.5px;
+}
+
+.cardHeaderH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #060606;
+    margin: 42px 0 0 38px;
+}
+
+.bigUnderlineBar, .smallUnderlineBar {
+    position: relative;
+    left: 38px;
+    bottom: -11.5px;
+    height: 6px;
+    background: #4C1691;
+    border-radius: 10px;
+}
+
+.bigUnderlineBar {
+    width: 156px;
+}
+
+.smallUnderlineBar {
+    width: 70px;
+}
